@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+
+h1{
+    
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    color: white;
+    
+}
+
+h2{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+
+}
+
+
+a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    
+    
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+
+}
+
+
+[class*="col-"]{
+    width: 100%;
+    
+}
+
+
+.navbar{
+
+    background-color: #00364D;
+    text-align: center;
+    padding: 1% 7%;
+}   
+
+.nav-logo img{
+    background: white;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.nav-manu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+}
+
+.nav-manu a{
+    background-color: gray;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+    max-width: 100%;
+    transition: transform 0.4s;
+    
+}
+
+.nav-manu a:hover{
+    background-color: #002136;
+    transform: scale(1.1);
+    
+}
+
+
+.navbar::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* heading end */
+
+.div1{
+    background-color: #004D65;
+}
+.div2{
+    margin-top: 5px;
+    background-color: #03657E;
+}
+.div3{
+    margin-top: 5px;
+    background-color: #307E98;
+}
+
+
+.main-head{
+    text-align: left;
+    padding:  20px;
+}
+
+.main-head h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #00364D;
+   }
+
+.main-head p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* .main-slid-poster{
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 57%, rgba(2,0,36,1) 100%);
+} */
+
+.main-slid-poster img{
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+    border-radius: 250px;
+}
+
+button{
+    font-size: 1.2rem;
+    background-color: #4E98B3;
+    padding: 15px 30px;
+    border-radius: 20px;
+    transition: transform 0.4s;
+}
+
+button:hover{
+    background-color: #307E98;
+    transform: scale(1.1);
+}
+
+
+
+.footer{
+    text-align: center;
+    color: black;
+    background-color: #fff;
+   }
+
+.btn{
+    
+    transition: 0.4s;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.btn:hover{
+    
+    transform: scale(1.1);
+}
+
+
+
+
+
+
